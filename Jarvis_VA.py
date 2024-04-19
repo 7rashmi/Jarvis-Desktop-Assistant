@@ -83,7 +83,7 @@ def sendEmail(to,content):
 
 #for news updates
 def news():
-    main_url = 'http://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey="887f4888895144819debfc1d65ff289e"'
+    main_url = 'http://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey="Your_API_key"'
 
     main_page = requests.get(main_url).json()
     # print(main_page)
