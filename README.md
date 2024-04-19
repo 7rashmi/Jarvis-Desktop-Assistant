@@ -17,4 +17,8 @@ Jarvis Desktop Assistant is a Python-based assistant designed to perform various
 ## Usage
 - Run the Jarvis_VA.py file:
 - Once the assistant is running, it will greet you and wait for your commands.
-- Speak your command, and Jarvis will perform the corresponding 
+- Speak your command, and Jarvis will perform the corresponding
+  ## Generating API Keys
+Some functionalities like news updates and email functionality may require API keys. Follow these steps to generate API keys:
+- News API Key: Visit News API and sign up for an API key. Once you have the API key, replace the placeholder YOUR_NEWS_API_KEY in the code with your actual API key.
+- Email API Key: If you're using the email functionality, you may need to configure your email provider's API settings. Consult your email provider's documentation for instructions on how to generate an API key or enable SMTP access.
